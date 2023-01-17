@@ -17,7 +17,8 @@ module go.opentelemetry.io/collector/cmd/builder
 go 1.18
 
 require (
-	github.com/knadh/koanf v1.4.5
+//	github.com/knadh/koanf v1.4.5 - patching dependency 
+	github.com/eddie-sumo/koanf v1.4.5.1
 	github.com/spf13/cobra v1.6.1
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.1
