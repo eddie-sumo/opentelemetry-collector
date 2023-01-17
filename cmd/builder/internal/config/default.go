@@ -17,8 +17,8 @@ package config // import "go.opentelemetry.io/collector/cmd/builder/internal/con
 import (
 	"embed"
 
-	"github.com/knadh/koanf"
-	"github.com/knadh/koanf/providers/fs"
+	"github.com/eddie-sumo/koanf"
+	"github.com/eddie-sumo/koanf/providers/fs"
 )
 
 //go:embed *.yaml
